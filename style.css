@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    box-sizing: content-box;
+}
+
+body{
+    background-color: #d9d9d9;
+}
+
+.navbar-brand{
+    font-size: 30px !important;
+    font-weight: 600;
+    color: white !important;
+    margin-left: 1rem;
+}
+
+.nav-link{
+    color: white !important;
+    margin-left: 1rem;
+}
+
+.skiptranslate.goog-te-gadget {
+    margin-right: 1.4rem;
+    margin-bottom: 0.2rem;
+    width: min-content;
+}
+
+.menu{
+    background-color: #cad6ec;
+    border: 0.4px solid rgb(222, 216, 216);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 2rem;
+    margin: 1rem 3rem 1rem 3rem;
+    border-radius: 10px;
+}
+
+.dropdown-item{
+    font-size: 1rem;
+}
+
+.card-body{
+    height: 101px;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+
+.tag-p{
+    font-size: 2rem;
+    font-weight: 500;
+    position: absolute;
+    top: 260px;
+    left: 680px;
+}
+
+.menu .card{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    width: 15rem !important;
+}
+
+.desc {
+    align-items: center;
+    justify-content: center;
+    border-bottom: 10px;
+    padding: 2rem 2rem;
+    margin: 1rem 3rem 1rem 3rem;
+}
+
+.desc h4{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.desc p{
+    font-size: 1.5rem;
+}
+
+
+.questions{
+    margin-top: 2rem;
+    
+}
+
+.questions h3{
+    font-size: 45px;
+    margin-left: 28vw;
+    font-weight: 600;
+}
+
+.questions p{
+    margin-top: 1rem;
+    margin-left: 28vw;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+.dropdown button{
+    width: 60vw;
+    background-color: white !important;
+    color: black !important;
+    border: none;
+    text-align: start;
+    font-size: 1.5rem;
+}
+
+.dropdown-menu{
+    width: 60vw;
+    text-align: center;
+    padding: 1rem;
+}
+
+.dropdown-menu div{
+    font-size: 1rem;
+}
+
+.dropdown-menu.show {
+    padding-inline-start: 1rem;
+    font-size: 2rem !important;
+}
+
+.ques{
+    width: 100%;
+    padding-inline: 2.4rem;
+    max-width: 84.8rem;
+    margin-inline: auto;
+    margin-bottom: 12rem;
+    box-sizing: border-box;
+}
+
+.ques-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.ques-container h3{
+    font-weight: 100;
+}
+
+.q-ans{
+    display: none;
+    /* display: block; */
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: rgba(51,51,51,.64);
+    height: -moz-fit-content;
+    height: fit-content;
+    padding-bottom: 2rem;
+    margin: 0;
+}
+
+.q-ans p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+
+.footer{
+    color: white;
+    padding: 3rem 2rem 3rem 2rem;
+}
+
+.list-up{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.list-up .list{
+    margin-right: 10rem;
+    margin-bottom: 5rem;
+}
+
+.list-down{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+}
+
+.low{
+    margin-top: 0rem;
+}
+
+.list-down .list{
+    margin-right: 12rem;
+}
+
+.list-up .list-title{
+    font-size: 1.6rem;
+}
+
+.footer p{
+    font-size: 19px;
+    margin-top: 1rem;
+    opacity: 0.8;
+}
+
+.tagline{
+    margin-bottom: 1rem;
+}
+
+.socials{
+    display: flex;
+    margin-top: 3rem;
+}
+
+.socials i{
+    height: 30px;
+    width: 30px;
+    font-size: 30px;
+    margin-right: 2rem;
+}
