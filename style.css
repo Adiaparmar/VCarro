@@ -27,7 +27,7 @@ body{
 }
 
 .menu{
-    background-color: #cad6ec;
+    background-color: #20b2aa;
     border: 0.4px solid rgb(222, 216, 216);
     display: flex;
     align-items: center;
@@ -63,6 +63,31 @@ body{
     top: 260px;
     left: 680px;
 }
+
+@media only screen and (max-width: 600px) {
+    .tag-p {
+        font-size: 1rem;
+        top: 250px;
+        left: 160px;
+        font-weight: 500;
+    }
+
+    .card-body{
+        height: 130px;
+    }
+
+    .questions h3{
+        margin-left:38.4px !important;
+        font-size: 2rem !important;
+    }
+
+    .questions p{
+        margin-left: 38.4px !important;
+        font-size: 1rem !important;
+        margin-right: 3rem !important;
+    }
+
+  }
 
 .menu .card{
     margin-left: 2rem;
